@@ -24,7 +24,7 @@ Cocktail.create(name: 'Irish coffee', image_url: 'https://images.unsplash.com/ph
 Cocktail.create(name: 'Martini', image_url: 'https://images.unsplash.com/photo-1527761939622-9119094630cf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4ef6ecdc202744f5babc4de5eb287c0&auto=format&fit=crop&w=800&q=60')
 Cocktail.create(name: 'Daiquiri', image_url: 'https://images.unsplash.com/photo-1502304893662-8a23b8a721ba?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b8b7faa8b7679f70dce3c6fcf1a1acc2&auto=format&fit=crop&w=668&q=80')
 Cocktail.create(name: 'Mojito', image_url: 'https://images.unsplash.com/photo-1509448613959-44d527dd5d86?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dde649e565a6cc5afadf42ab8262aa62&auto=format&fit=crop&w=800&q=60')
-# Cocktail.create(name: 'Martini', image_url: 'https://images.unsplash.com/photo-1527761939622-9119094630cf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4ef6ecdc202744f5babc4de5eb287c0&auto=format&fit=crop&w=800&q=60')
+Cocktail.create(name: 'Martini', image_url: 'https://images.unsplash.com/photo-1527761939622-9119094630cf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4ef6ecdc202744f5babc4de5eb287c0&auto=format&fit=crop&w=800&q=60')
 
 
 
