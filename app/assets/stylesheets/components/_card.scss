@@ -11,6 +11,11 @@
   background-position: center;
   color: white;
   position: relative;
+  border-radius: 3px;
+  h2 {
+    font-family: Pacifico;
+    font-weight: lighter;
+  }
   }
 .card-user {
   position: absolute;
@@ -28,7 +33,7 @@
 }
 .card-description {
   position: absolute;
-  bottom: 10px;
+  top: -10px;
   left: 10px;
 }
 .card-description h2 {
@@ -57,6 +62,6 @@
   color: white;
   text-decoration: none;
   &:hover {
-    color: lightblue;
+    color: #448ef6;
   }
 }
