@@ -20,10 +20,12 @@
 
 <br>
 
-<div class="img-container text-center">
+<div class="img-container col-xs-12 col-md-6">
 
   <%= @cocktail.photo.url.nil? ? image_tag('https://nit.pt/wp-content/uploads/2018/03/1f6c1db74d7639574e4a6b6abe9c4f8f.jpg', width: '500') : cl_image_tag(@cocktail.photo, width: '500') %>
   <br><br>
+</div>
+<div class="col-xs-12 col-md-6">
   <ul>
     <% @cocktail.doses.each do |dose| %>
     <li><%= dose.ingredient.name %> – <%= dose.description %> <%= link_to "[Delete]", cocktail_path(dose), method: :delete %> </li>
